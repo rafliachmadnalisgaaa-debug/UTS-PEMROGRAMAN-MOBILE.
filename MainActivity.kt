@@ -76,9 +76,9 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-// ==========================================
-// JAWABAN SOAL NO. 2 UTS (Halaman 1)
-// ==========================================
+
+// JAWABAN SOAL NO. 2 UTS
+
 @Composable
 fun ParentScreen() {
     var teks by remember { mutableStateOf("") }
@@ -131,9 +131,9 @@ fun ParentScreenPreview() {
     }
 }
 
-// ==========================================
-// JAWABAN SOAL NO. 3 UTS (Halaman 2)
-// ==========================================
+
+// JAWABAN SOAL NO. 3 UTS 
+
 data class Tugas(
     val judul: String,
     val deadline: String
@@ -182,9 +182,9 @@ fun DaftarTugasScreenPreview() {
     }
 }
 
-// ==========================================
-// JAWABAN SOAL NO. 4 UTS (Halaman 3)
-// ==========================================
+
+// JAWABAN SOAL NO. 4 UTS 
+
 @Composable
 fun MenuAkademikScreen(
     onMenuClick: (String) -> Unit = {}
